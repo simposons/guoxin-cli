@@ -1,6 +1,6 @@
 {
   "name": "guoxin-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "guoxin脚手架",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,28 @@
   "bin": {
     "guoxin-cli": "bin/main"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "keywords": [
+    "cli",
+    "guoxin"
+  ],
+  "author": {
+    "name": "simposons",
+    "email": "simposons@qq.com",
+    "url": "https://github.com/simposons"
+  },
+  "contributors": [
+    {
+      "name": "chenxiaoxi",
+      "email": "chenxiaoxi.job@foxmail.com",
+      "url": "https://github.com/simposons"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simposons/guoxin-cli.git"
+  },
+  "github": "https://github.com/simposons/guoxin-cli.git",
   "dependencies": {
     "axios": "^1.3.4",
     "chalk": "^4.1.2",
